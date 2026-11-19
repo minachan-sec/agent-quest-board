@@ -18,8 +18,8 @@ Not affiliated with or endorsed by any wallet or exchange.
 |------|-------|
 | Contract | v1.1.0, 68/68 tests passing (incl. mainnet fork + invariant fuzz) |
 | GPT re-audit | Done (Xingchi, gpt-6.1-sol) — M-1/M-2/M-3 fixed, no Critical/High |
-| Deploy | **Not deployed yet** — predicted address `0x7f41A272D523b99e644B6362dABB852FF16316A8` (CREATE2, see below) |
-| Frontend | Static site in `docs/`, live on GitHub Pages (shows "not deployed yet" until the contract is live) |
+| Deploy | **LIVE on BSC mainnet** — `0x7f41A272D523b99e644B6362dABB852FF16316A8` (deployed 19 Nov 2026, block 134458128, [deploy tx](https://bscscan.com/tx/0xf2ef586db8fbb93fa0f6337f7ea1cd5fa8b7da3fd87949d432fe00cd417a227c)); verified on Sourcify (exact match, creation + runtime) |
+| Frontend | Static site in `docs/`, live on GitHub Pages |
 
 ## How it works
 

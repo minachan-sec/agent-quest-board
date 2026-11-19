@@ -28,8 +28,7 @@ window.QBCFG = {
   minRewardWei: "1000000000000000", // 0.001 BNB
   pageSize: 20,
   maxInitialQuests: 100,
-  // First block to scan for quest events. 0 is fine while the board is
-  // young; after deployment, set this to the deploy block to keep the
-  // event scan fast.
-  deployBlock: 0
+  // First block to scan for quest events. Set to the deploy block
+  // (19 Nov 2026) to keep the event scan fast.
+  deployBlock: 134458128
 };
